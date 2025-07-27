@@ -1,0 +1,7 @@
+# TEE
+/sec_storage(/.*)?                              u:object_r:teecd_data_file:s0
+
+# Mount points
+/splash2(/.*)?                                  u:object_r:splashtwo_file:s0
+/log(/.*)?                                      u:object_r:splashtwo_file:s0
+

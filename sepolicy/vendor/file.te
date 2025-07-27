@@ -1,0 +1,5 @@
+# Mount points
+type splashtwo_file, file_type;
+
+# TEE
+type teecd_data_file, file_type;

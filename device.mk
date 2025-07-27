@@ -11,6 +11,14 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.mt6765.rc:recovery/root/init.recovery.mt6765.rc
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6765 \
+    fstab.mt6765_ramdisk \
+    init.mt6765.rc \
+    init.mt6765.usb.rc \
+    ueventd.mt6765.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
