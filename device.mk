@@ -7,6 +7,10 @@
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# Recovery
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.recovery.mt6765.rc:recovery/root/init.recovery.mt6765.rc
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
