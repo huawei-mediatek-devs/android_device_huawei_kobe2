@@ -1,2 +1,27 @@
+# Display
+ro.hardware.egl=mtk
+
 # Fastbootd
 ro.fastbootd.available=true
+
+# OpenGLES
+ro.opengles.version=196610
+
+# Picture Quality
+persist.vendor.sys.pq.adl.idx=1
+persist.vendor.sys.pq.hdr.en=1
+persist.vendor.sys.pq.hfg.en=2
+persist.vendor.sys.pq.iso.shp.en=2
+persist.vendor.sys.pq.mdp.ccorr.en=0
+persist.vendor.sys.pq.mdp.color.dbg=1
+persist.vendor.sys.pq.mdp.color.idx=0
+persist.vendor.sys.pq.mdp.dre.en=2
+persist.vendor.sys.pq.mdp.hdrvp.dre.en=2
+persist.vendor.sys.pq.mdp.vp.dre.en=1
+persist.vendor.sys.pq.shp.idx=2
+persist.vendor.sys.pq.ultrares.en=2
+ro.vendor.mtk_pq_color_mode=1
+ro.vendor.mtk_pq_support=2
+
+# SurfaceFlinger
+debug.sf.disable_backpressure=1
