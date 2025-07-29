@@ -7,6 +7,10 @@
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+    fastbootd
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
