@@ -139,5 +139,8 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
+# VNDK
+PRODUCT_USE_VNDK_OVERRIDE := true
+
 # Inherit the proprietary files
 include vendor/huawei/kobe2/BoardConfigVendor.mk
