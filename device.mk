@@ -39,6 +39,17 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     fastbootd
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    libkeymaster3device.vendor \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl
+
+# Logging
+PRODUCT_PACKAGES += \
+    libimonitor \
+    libxcollie
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -67,7 +78,8 @@ TARGET_SCREEN_WIDTH := 800
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/huawei
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/huawei/kobe2/kobe2-vendor.mk)

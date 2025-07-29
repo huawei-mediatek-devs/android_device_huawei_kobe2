@@ -63,6 +63,12 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib/libfgauge_gm30.so
 
+# Keymaster
+vendor/bin/hw/android.hardware.keymaster@3.0-service
+vendor/etc/init/android.hardware.keymaster@3.0-service.rc
+vendor/lib/hw/keystore.mt6765.so
+vendor/lib/hw/android.hardware.keymaster@3.0-impl.so
+
 # NVRAM
 vendor/bin/nvram_daemon
 vendor/etc/init/nvram_daemon.rc
