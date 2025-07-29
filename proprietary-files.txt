@@ -63,6 +63,11 @@ vendor/etc/init/fuelgauged_init.rc
 vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/lib/libfgauge_gm30.so
 
+# Gatekeeper
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service
+vendor/lib/hw/gatekeeper.mt6765.so
+vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
+
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service
 vendor/etc/init/android.hardware.keymaster@3.0-service.rc
