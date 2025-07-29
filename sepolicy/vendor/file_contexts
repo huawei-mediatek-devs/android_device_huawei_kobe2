@@ -1,7 +1,13 @@
-# TEE
-/sec_storage(/.*)?                              u:object_r:teecd_data_file:s0
-
 # Mount points
 /splash2(/.*)?                                  u:object_r:splashtwo_file:s0
 /log(/.*)?                                      u:object_r:splashtwo_file:s0
 
+# TEE
+/sec_storage(/.*)?                              u:object_r:teecd_data_file:s0
+/data/sec_storage_data(/.*)?                    u:object_r:teecd_data_file:s0
+/data/sec_storage_data_users(/.*)?              u:object_r:teecd_data_file:s0
+/data/vendor/sec_storage_data(/.*)?             u:object_r:vendor_teecd_data_file:s0
+/data/vendor/sec_storage_data_users(/.*)?       u:object_r:vendor_teecd_data_file:s0
+/dev/tc_ns_client                               u:object_r:teecd_device:s0
+/vendor/bin/system_teecd                        u:object_r:vendor_huawei_teecd_exec:s0
+/vendor/bin/teecd                               u:object_r:vendor_huawei_teecd_exec:s0

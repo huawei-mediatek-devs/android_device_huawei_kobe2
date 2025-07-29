@@ -1,0 +1,4 @@
+type vendor_huawei_teecd, domain;
+type vendor_huawei_teecd_exec, exec_type, vendor_file_type, file_type;
+
+init_daemon_domain(vendor_huawei_teecd)

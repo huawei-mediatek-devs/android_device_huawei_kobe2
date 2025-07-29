@@ -1,0 +1,2 @@
+# Teecd
+/system/bin/tee_auth_daemon                     u:object_r:system_teecd_exec:s0

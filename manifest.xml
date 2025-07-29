@@ -40,6 +40,16 @@
         <fqname>@1.0::IMemtrack/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.huawei.hardware.libteec</name>
+        <transport>hwbinder</transport>
+        <version>3.0</version>
+        <interface>
+            <name>ILibteecGlobal</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@3.0::ILibteecGlobal/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.mediatek.hardware.gpu</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
