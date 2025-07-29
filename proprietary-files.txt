@@ -95,7 +95,7 @@ vendor/bin/fpkit_goodix_3658_ta.sec
 vendor/bin/fpkit_silead_6152B_ta.sec
 vendor/bin/hisecd
 vendor/bin/teecd
-vendor/etc/native_packages.xml
+vendor/etc/native_packages.xml:vendor/etc/native_packages.bin
 vendor/etc/init/vendor.huawei.hardware.libteec@3.0-service.rc
 vendor/lib/hw/vendor.huawei.hardware.libteec@3.0-impl.so
 vendor/lib/libc_secshared.so
