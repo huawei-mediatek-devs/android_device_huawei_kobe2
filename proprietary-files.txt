@@ -1,5 +1,8 @@
 # Unpinned blobs from HUAWEI/KOB2-W09/HWKOB2:10/HUAWEIKOB2-W09/10.1.0.212C432:user/release-keys
 
+# AEE
+vendor/lib/libaedv.so
+
 # Display
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
