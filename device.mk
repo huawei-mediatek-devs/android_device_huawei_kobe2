@@ -55,6 +55,11 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor \
     libhwbinder
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0-impl \
+    android.hardware.bluetooth@1.0-service
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \

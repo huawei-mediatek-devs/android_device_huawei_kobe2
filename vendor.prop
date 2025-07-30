@@ -2,6 +2,9 @@
 persist.vendor.audio.tuning.def_path=odm/etc/audio/audio_param_ce
 ro.audio.monitorRotation=true
 
+# Bluetooth
+ro.bt.bdaddr_path=/data/vendor/bluedroid/macbt
+
 # Display
 ro.hardware.egl=mtk
 

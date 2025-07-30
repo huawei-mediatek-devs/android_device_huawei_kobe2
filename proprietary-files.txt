@@ -324,6 +324,15 @@ vendor/etc/aurisys_param/Speech_AudioParam.xml
 vendor/etc/smartpa_param/rt5509_param
 vendor/etc/smartpa_param/rt_device.xml
 
+# Bluetooth
+vendor/bin/mac_addr_normalization
+vendor/lib/libbluetooth_hw_test.so
+vendor/lib/libbluetooth_mtk.so
+vendor/lib/libbluetooth_mtk_pure.so
+vendor/lib/libbluetooth_relayer.so
+vendor/lib/libbluetoothem_mtk.so
+vendor/lib/libbt-vendor.so
+
 # Display
 vendor/bin/hw/vendor.mediatek.hardware.gpu@1.0-service
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
