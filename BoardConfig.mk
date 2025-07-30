@@ -47,5 +47,8 @@ TARGET_BOARD_PLATFORM := mt6765
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
+
 # Inherit the proprietary files
 include vendor/huawei/kobe2/BoardConfigVendor.mk
