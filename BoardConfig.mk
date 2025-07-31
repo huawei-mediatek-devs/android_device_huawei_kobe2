@@ -136,6 +136,7 @@ BOARD_ROOT_EXTRA_FOLDERS += \
     sec_storage
 
 # SEPolicy
+include device/mediatek/sepolicy/BoardSEPolicyConfig.mk
 BOARD_VENDOR_SEPOLICY_DIRS += \
     $(DEVICE_PATH)/sepolicy/vendor
 
