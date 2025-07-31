@@ -30,6 +30,9 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libtinyxml
 
+PRODUCT_PACKAGES += \
+    libmedia_helper-v29
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
