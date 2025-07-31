@@ -33,6 +33,7 @@ def AddImage(info, dir, basename, dest):
 
 def OTA_InstallEnd(info):
   AddImage(info, "RADIO", "boot_ramdisk.img", "/dev/block/platform/bootdevice/by-name/ramdisk")
+  AddImage(info, "IMAGES", "dtbo.img", "/dev/block/platform/bootdevice/by-name/dtbo")
   AddImage(info, "RADIO", "recovery_vendor.img", "/dev/block/platform/bootdevice/by-name/recovery_vendor")
   AddImage(info, "RADIO", "recovery_ramdisk.img", "/dev/block/platform/bootdevice/by-name/recovery_ramdisk")
   return
