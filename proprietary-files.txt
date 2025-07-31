@@ -28,7 +28,6 @@ vendor/lib/libgpu_aux.so
 vendor/lib/libgralloc_extra.so
 vendor/lib/libion_mtk.so
 vendor/lib/libion_ulit.so
-vendor/lib/libladder.so
 vendor/lib/libmemtrack_GL.so
 vendor/lib/libmpvr.so
 vendor/lib/libpq_cust_base.so
@@ -42,3 +41,6 @@ vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.2.so
 vendor/lib/vendor.mediatek.hardware.pq@2.3.so
+
+# Ladder - from angelican-user-11-RP1A.200720.011-V12.5.3.0.RCSMIXM-release-keys
+vendor/lib/libladder.so|b3161af9c1ae115b467ed6d210355348717145c8
