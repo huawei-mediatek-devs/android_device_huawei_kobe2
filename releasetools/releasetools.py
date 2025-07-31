@@ -36,6 +36,7 @@ def OTA_InstallEnd(info):
   AddImage(info, "IMAGES", "dtbo.img", "/dev/block/platform/bootdevice/by-name/dtbo")
   AddImage(info, "RADIO", "recovery_vendor.img", "/dev/block/platform/bootdevice/by-name/recovery_vendor")
   AddImage(info, "RADIO", "recovery_ramdisk.img", "/dev/block/platform/bootdevice/by-name/recovery_ramdisk")
+  AddImage(info, "IMAGES", "super_empty.img", "/dev/block/platform/bootdevice/by-name/super")
   AddImage(info, "IMAGES", "vbmeta.img", "/dev/block/platform/bootdevice/by-name/vbmeta")
   AddImage(info, "IMAGES", "vbmeta_system.img", "/dev/block/platform/bootdevice/by-name/vbmeta_system")
   AddImage(info, "IMAGES", "vbmeta_vendor.img", "/dev/block/platform/bootdevice/by-name/vbmeta_vendor")
