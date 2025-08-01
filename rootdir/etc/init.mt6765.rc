@@ -52,7 +52,11 @@ on late-init
     write /sys/kernel/rcu_expedited 1
 
 on fs
-    mount_all /vendor/etc/fstab.mt6765
+    mount_all /vendor/etc/fstab.mt6765 --early
+
+on late-fs
+    # Mount RW partitions which need run fsck
+    mount_all /vendor/etc/fstab.mt6765 --late
 
 on post-fs-data
     # TEE
