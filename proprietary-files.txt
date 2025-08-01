@@ -423,6 +423,16 @@ vendor/lib/libnvram_sec.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
 
+# Sensors
+vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
+vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc
+vendor/lib/hw/sensors.mt6765.so
+vendor/lib/hw/vendor.huawei.hardware.sensors@1.0-impl.so
+vendor/lib/lib_sensor_fac_interface.so
+vendor/lib/libksensor.so
+vendor/lib/libsensor_custom.so
+vendor/lib/vendor.huawei.hardware.sensors@1.0.so
+
 # Trusted Execution Environment (TEE)
 vendor/bin/hw/vendor.huawei.hardware.libteec@3.0-service
 vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec
