@@ -446,3 +446,23 @@ vendor/lib/libc_secshared.so
 vendor/lib/libteec_vendor.so
 vendor/lib/libthha.so
 vendor/lib/vendor.huawei.hardware.libteec@3.0.so
+
+# Wi-Fi
+vendor/bin/hostapd_cli
+vendor/bin/hw/hostapd
+vendor/bin/hw/vendor.huawei.hardware.wifi@1.1-service
+vendor/bin/hw/wpa_supplicant
+vendor/etc/init/hostapd.android.rc
+vendor/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc
+vendor/lib/hw/vendor.huawei.hardware.wifi@1.1-impl.so
+vendor/lib/lib_softap_hw.so
+vendor/lib/lib_wifi_sar.so
+vendor/lib/libhwwifi-hal.so
+vendor/lib/libwapi.so
+vendor/lib/libwifi-hal.so
+vendor/lib/libwifi_bcm.so
+vendor/lib/libwifi_ext.default.so
+vendor/lib/vendor.huawei.hardware.wifi.supplicant@3.0.so
+vendor/lib/vendor.huawei.hardware.wifi@1.0.so
+vendor/lib/vendor.huawei.hardware.wifi@1.1.so
+vendor/lib/vendor.mediatek.hardware.wifi.hostapd@2.0.so

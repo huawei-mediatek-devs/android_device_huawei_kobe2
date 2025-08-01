@@ -90,6 +90,36 @@
         <fqname>@1.0::IMemtrack/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>android.hardware.wifi</name>
+        <transport>hwbinder</transport>
+        <version>1.3</version>
+        <interface>
+            <name>IWifi</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.3::IWifi/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.wifi.hostapd</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.1::IHostapd/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.wifi.supplicant</name>
+        <transport>hwbinder</transport>
+        <version>1.2</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.2::ISupplicant/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.huawei.hardware.libteec</name>
         <transport>hwbinder</transport>
         <version>3.0</version>
@@ -98,6 +128,26 @@
             <instance>default</instance>
         </interface>
         <fqname>@3.0::ILibteecGlobal/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.wifi</name>
+        <transport>hwbinder</transport>
+        <version>1.1</version>
+        <interface>
+            <name>IHwWifiExt</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.1::IHwWifiExt/default</fqname>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.huawei.hardware.wifi.supplicant</name>
+        <transport>hwbinder</transport>
+        <version>3.0</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@3.0::ISupplicant/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.gpu</name>
