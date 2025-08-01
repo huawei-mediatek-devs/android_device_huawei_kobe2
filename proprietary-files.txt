@@ -407,6 +407,41 @@ vendor/etc/init/android.hardware.keymaster@3.0-service.rc
 vendor/lib/hw/keystore.mt6765.so
 vendor/lib/hw/android.hardware.keymaster@3.0-impl.so
 
+# Media (OMX)
+vendor/lib/libHEVCdec_sa.ca7.android.so
+vendor/lib/libJpgDecPipe.so
+vendor/lib/libJpgEncPipe.so
+vendor/lib/libMtkOmxAdpcmDec.so
+vendor/lib/libMtkOmxAlacDec.so
+vendor/lib/libMtkOmxApeDec.so
+vendor/lib/libMtkOmxCore.so
+vendor/lib/libMtkOmxG711Dec.so
+vendor/lib/libMtkOmxGsmDec.so
+vendor/lib/libMtkOmxMp3Dec.so
+vendor/lib/libMtkOmxVdecEx.so
+vendor/lib/libMtkOmxVenc.so
+vendor/lib/libSwJpgCodec.so
+vendor/lib/libh264dec_customize.so
+vendor/lib/libh264dec_sa.ca7.so
+vendor/lib/libh264dec_sd.ca7.so
+vendor/lib/libh264dec_se.ca7.so
+vendor/lib/libh264enc_sa.ca7.so
+vendor/lib/libHEVCdec_sa.ca7.android.so
+vendor/lib/libhevce_sb.ca7.android.so
+vendor/lib/libjpeg-alpha-oal_vendor.so
+vendor/lib/libjpeg-alpha_vendor.so
+vendor/lib/libmhalImageCodec.so
+vendor/lib/libmp4enc_sa.ca7.so
+vendor/lib/libmp4enc_xa.ca7.so
+vendor/lib/libmtk_drvb.so
+vendor/lib/libvc1dec_sa.ca7.so
+vendor/lib/libvcodecdrv.so
+vendor/lib/libvcodec_oal.so
+vendor/lib/libvcodec_utility.so
+vendor/lib/libvp8dec_sa.ca7.so
+vendor/lib/libvp9dec_sa.ca7.so
+vendor/lib/libstagefrighthw.so
+
 # NVRAM
 vendor/bin/nvram_daemon
 vendor/etc/init/nvram_daemon.rc
