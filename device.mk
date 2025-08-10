@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
 # Logging
 PRODUCT_PACKAGES += \
     libimonitor \
+    libhwlog \
     libxcollie
 
 # Media
@@ -114,6 +115,10 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
+
+# Power
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/power/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)

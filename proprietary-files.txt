@@ -465,6 +465,42 @@ vendor/lib/libnvram_sec.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
 
+# Power
+vendor/bin/hw/vendor.huawei.hardware.iawareperf@1.0-service
+vendor/bin/hw/vendor.huawei.hardware.power@1.0-service
+vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
+vendor/etc/init/init.huawei.power.rc
+vendor/etc/init/vendor.huawei.hardware.iawareperf@1.0-service.rc
+vendor/etc/init/vendor.huawei.hardware.power@1.0-service.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc
+vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc
+vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so
+vendor/lib/hw/power.mt6765.so
+vendor/lib/hw/vendor.huawei.hardware.iawareperf@1.0-impl.so
+vendor/lib/hw/vendor.huawei.hardware.iawareperfpolicy@1.0-impl.so
+vendor/lib/hw/vendor.huawei.hardware.power@1.0-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.0-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.power@2.1-impl.so
+vendor/lib/libcam.huawei.perfdot.so
+vendor/lib/libhuaweicust.so
+vendor/lib/libiawareperf_client.so
+vendor/lib/libiawareperf_server.so
+vendor/lib/libiawareperfpolicy_server.so
+vendor/lib/libmtk_wrapper.so
+vendor/lib/libmtkperf_client_vendor.so
+vendor/lib/libperfctl_vendor.so
+vendor/lib/libpowerhal.so
+vendor/lib/libpowerhalwrap_vendor.so
+vendor/lib/libpowerlog.so
+vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so
+vendor/lib/vendor.huawei.hardware.iawareperfpolicy@1.0.so
+vendor/lib/vendor.huawei.hardware.power@1.0.so
+vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
+vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
+vendor/lib/vendor.mediatek.hardware.power@1.1.so
+vendor/lib/vendor.mediatek.hardware.power@2.0.so
+vendor/lib/vendor.mediatek.hardware.power@2.1.so
+
 # Sensors
 vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
 vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc
